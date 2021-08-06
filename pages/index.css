@@ -1,1 +1,7 @@
+/* stylesheet from the external vendor */
 @import url(./../vendor/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* stylesheets for the block - page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__wrapper/page__wrapper.css);
