@@ -1,0 +1,6 @@
+.card__illustration {
+  box-sizing: border-box;
+  /* margin: 200px 0 0 -50px; */
+  padding: 0;
+  max-width: 100%;
+}

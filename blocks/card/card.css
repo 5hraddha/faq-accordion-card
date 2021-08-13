@@ -1,0 +1,24 @@
+.card {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100vw - ( 2 * 200px));
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(269px, 1fr));
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1240px) {
+  .card {
+    width: calc(100vw - ( 2 * 100px));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    grid-template-columns: 1fr;
+    width: calc(100vw - ( 2 * 50px));
+  }
+}

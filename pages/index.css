@@ -5,3 +5,21 @@
 /* stylesheets for the block - page */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__wrapper/page__wrapper.css);
+
+/* stylesheets for the block - card */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__img-wrapper/card__img-wrapper.css);
+@import url(../blocks/card/__illustration/card__illustration.css);
+@import url(../blocks/card/__illustration-item/card__illustration-item.css);
+@import url(../blocks/card/__img-box/card__img-box.css);
+@import url(../blocks/card/__faq-wrapper/card__faq-wrapper.css);
+@import url(../blocks/card/__title/card__title.css);
+
+
+/* stylesheets for the block - accordion */
+@import url(../blocks/accordian/accordian.css);
+@import url(../blocks/accordian/__checkbox/accordian__checkbox.css);
+@import url(../blocks/accordian/__checkbox/_state/accordian__checkbox_state_hidden.css);
+@import url(../blocks/accordian/__checkbox/_state/accordian__checkbox_state_visible.css);
+@import url(../blocks/accordian/__content/accordion__content.css);
+@import url(../blocks/accordian/__label/accordian__label.css);

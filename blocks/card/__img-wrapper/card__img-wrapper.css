@@ -1,0 +1,21 @@
+.card__img-wrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: 1px solid cyan;
+}
+
+.card__img-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../../images/bg-pattern-desktop.svg);
+  background-position: bottom;
+  background-size: auto;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}

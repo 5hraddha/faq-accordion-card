@@ -1,0 +1,8 @@
+.card__illustration-item {
+  box-sizing: border-box;
+  margin: 0;
+  margin: 100px 0 0 -80px;
+  padding: 0;
+  width: 100%;
+  display: block;
+}
