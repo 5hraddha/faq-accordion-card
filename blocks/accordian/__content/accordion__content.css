@@ -1,5 +1,15 @@
 .accordion__content {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 16px 0 0;
+  display: none;
+  width: 100%;
+  color: #787887;
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.accordian__radio_state_hidden:checked ~ .accordion__content {
+  display: block;
 }

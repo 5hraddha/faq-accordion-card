@@ -1,0 +1,19 @@
+.accordian__radio_state_visible {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 5%;
+  background-image: url(../../../../images/icon-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: all linear .3s;
+}
+
+.accordian__radio_state_visible:hover {
+  cursor: pointer;
+}
+
+.accordian__radio_state_hidden:checked ~ .accordian__radio_state_visible {
+  transform: rotate(180deg);
+}

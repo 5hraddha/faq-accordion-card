@@ -18,8 +18,9 @@
 
 /* stylesheets for the block - accordion */
 @import url(../blocks/accordian/accordian.css);
-@import url(../blocks/accordian/__checkbox/accordian__checkbox.css);
-@import url(../blocks/accordian/__checkbox/_state/accordian__checkbox_state_hidden.css);
-@import url(../blocks/accordian/__checkbox/_state/accordian__checkbox_state_visible.css);
 @import url(../blocks/accordian/__content/accordion__content.css);
 @import url(../blocks/accordian/__label/accordian__label.css);
+@import url(../blocks/accordian/__segment/accordian__segment.css);
+@import url(../blocks/accordian/__radio/accordian__radio.css);
+@import url(../blocks/accordian/__radio/_state/accordian__radio_state_hidden.css);
+@import url(../blocks/accordian/__radio/_state/accordian__radio_state_visible.css);
