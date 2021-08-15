@@ -1,8 +1,23 @@
 .card__illustration-item {
   box-sizing: border-box;
   margin: 0;
-  margin: 100px 0 0 -80px;
   padding: 0;
-  width: 100%;
-  display: block;
+  position: absolute;
+  top: 30%;
+  left: -15%;
 }
+
+/* .card__illustration-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 700px;
+  width: 800px;
+  height: 800px;
+  background-image: url(../../../images/illustration-box-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 10;
+  border: 5px solid red;
+} */
